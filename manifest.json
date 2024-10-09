@@ -1,0 +1,13 @@
+{
+  "name": "Scratch comment+",
+  "description": "It's good for you to comment on scratch.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://scratch.mit.edu/users/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons":{"128": "128.png"}
+}
